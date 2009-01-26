@@ -1,16 +1,42 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <title>Public Collections</title>
   
+  <%= stylesheet_link_tag "main.css", :media => "screen, projection" %>
   <%= javascript_include_tag "jquery", "jquery.scrollbox", "application" %>
-<head>
+  
+</head>
 <body>
-  <div>
-    <%= yield %>
-  </div>
+  
+  <h1><a href="/" title="Public Collections Homepage">Public Collections</a></h1>
+  
+  <div id="content">
+    
+    <h2>Posting information on those not paying their <br /> invoices &amp; avoiding contact attempts.</h2>
+    
+    <div id="main">
+      <%= yield %>
+    </div><!-- #main -->
+    
+    <div id="rail">
+      <h3>What's Posted Here</h3>
+      <p>If you've hired someone and decided not to pay your invoice and avoid their contact attempts. Your information will be posted here.</p>
+      
+      <h3>Remove Your Name</h3>
+      <p>Not happy about your information posted on this website? It's pretty easy to remove.</p>
+
+      <ol>
+        <li>Option 1 - PAY YOUR BILL</li>
+        <li>Option 2 - Setup a Payment Plan (with the person/organization you hired)</li>
+      </ol>
+
+      <h3>Legal(ish)</h3>
+      <p>We're not lawyers, just a bunch of people that haven't been paid for our hard work. Please don't sue us, we don't have any money because to people aren't paying us. If you are upset, please contact the folks you've done business with.</p>
+    </div><!-- #rail -->
+
+  </div><!-- #content -->
 </body>
 </html>
