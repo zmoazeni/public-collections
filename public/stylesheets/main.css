@@ -74,7 +74,7 @@ a {
     list-style: none;
 }
 
-ul#tweets {
+#tweets ul {
     padding: 1em 0;
 }
     #tweets li {
