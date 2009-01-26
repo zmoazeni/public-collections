@@ -2725,3 +2725,80 @@ Processing TweetsController#updated (for 127.0.0.1 at 2009-01-26 15:44:35) [GET]
   [4;35;1mTweet Load (0.8ms)[0m   [0mSELECT * FROM "tweets" WHERE (tweet_id > 'undefined') ORDER BY sent_at desc[0m
 Rendering tweets/updated
 Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost.local/updated?since=undefined]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTweets (20090126183046)
+  [4;36;1mSQL (14.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("tweets")[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-01-26 13:45:51) [GET]
+  [4;36;1mTweet Load (1.5ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY sent_at desc LIMIT 15[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (86.4ms)
+Rendered tweets/_tweet (0.4ms)
+Rendered tweets/_tweet (0.3ms)
+Completed in 433ms (View: 92, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-01-26 13:48:29) [GET]
+  [4;36;1mTweet Load (1.4ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY sent_at desc LIMIT 15[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (65.6ms)
+Rendered tweets/_tweet (1.2ms)
+Rendered tweets/_tweet (0.8ms)
+Completed in 265ms (View: 83, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-01-26 13:48:38) [GET]
+  [4;35;1mTweet Load (1.1ms)[0m   [0mSELECT * FROM "tweets" ORDER BY sent_at desc LIMIT 15[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (2.8ms)
+Rendered tweets/_tweet (0.3ms)
+Rendered tweets/_tweet (0.3ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-01-26 13:49:02) [GET]
+  [4;36;1mTweet Load (1.3ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY sent_at desc LIMIT 15[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (2.6ms)
+Rendered tweets/_tweet (0.3ms)
+Rendered tweets/_tweet (0.3ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-01-26 13:49:04) [GET]
+  [4;35;1mTweet Load (3.6ms)[0m   [0mSELECT * FROM "tweets" ORDER BY sent_at desc LIMIT 15[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (4.7ms)
+Rendered tweets/_tweet (0.4ms)
+Rendered tweets/_tweet (0.6ms)
+Completed in 24ms (View: 14, DB: 4) | 200 OK [http://127.0.0.1/]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-01-26 13:49:15) [GET]
+  [4;36;1mTweet Load (1.3ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY sent_at desc LIMIT 15[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (3.2ms)
+Rendered tweets/_tweet (0.4ms)
+Rendered tweets/_tweet (2.0ms)
+Completed in 24ms (View: 15, DB: 1) | 200 OK [http://127.0.0.1/]
