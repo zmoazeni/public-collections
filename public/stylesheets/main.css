@@ -24,6 +24,8 @@ h1 {
         text-indent: -999em;
     }
 
+	h1 a:hover { border: none; }
+
 h2 {
     font: normal 1.7em "LucidaBright Demi", "LucidaBright", Georgia, serif;
     text-transform: uppercase;
