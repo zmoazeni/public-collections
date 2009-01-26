@@ -71,6 +71,14 @@ a {
     background: transparent url(/images/bg-rail.png) repeat-y 0% 0%;
 }
 
+#footer {
+    background: transparent url(/images/bg-star-divider.png) no-repeat 50% 0%;
+    padding-top: 2em;
+    margin: 3em 0;
+    font-size: .8em;
+    clear: both;
+}
+
 /* Specific Styles
  * ----------------------------------------------------------------*/
 
