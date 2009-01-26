@@ -38,8 +38,12 @@ h3 {
 
 a {
     color: #006626;
+	text-decoration: none;
 }
-    a:hover { text-decoration: none; }
+    a:hover { 
+	text-decoration: none; 
+	border-bottom: 1px solid #006626;
+	}
     
 /* Layout
  * ----------------------------------------------------------------*/
@@ -100,6 +104,7 @@ a {
     }
 
     #tweets li .meta {
+		color: #999;
         font-style: italic;
         margin-top: .5em;
     }
