@@ -59,6 +59,7 @@ a {
     float: left;
     width: 31em;
     padding: 1em 2em;
+    background: transparent url(/images/bg-rail.png) repeat-y 100% 0%;
 }
 
 #rail {
@@ -66,7 +67,6 @@ a {
     width: 21em;
     margin-left: 35em;
     padding: 1em 2em;
-    background: transparent url(/images/bg-rail.png) repeat-y 0% 0%;
 }
 
 #footer {
