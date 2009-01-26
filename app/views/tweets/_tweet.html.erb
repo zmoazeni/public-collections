@@ -1,0 +1,10 @@
+<li class="tweet" id="<%= tweet.tweet_id %>">
+  <div class="quote">
+    <a href="http://twitter.com/<%= tweet.sender %>/status/<%= tweet.tweet_id %>" target="_blank"><%= prettify(tweet.message) %></a>
+  </div>
+  
+  <div class="meta">
+    <a href="http://twitter.com/<%= tweet.sender %>" target="_blank"><%= tweet.sender %></a> - 
+    <%= tweet.sent_at.to_s(:tweet) %>
+  </div>
+</li>
