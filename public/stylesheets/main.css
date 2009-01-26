@@ -51,12 +51,14 @@ a {
 }
 
 #main {
+    text-align: left;
     float: left;
     width: 31em;
     padding: 1em 2em;
 }
 
 #rail {
+    text-align: left;
     width: 21em;
     margin-left: 35em;
     padding: 1em 2em;
@@ -65,10 +67,6 @@ a {
 
 /* Specific Styles
  * ----------------------------------------------------------------*/
-
-#main > * {
-    text-align: left;
-}
 
 #main ul {
     list-style: none;
@@ -86,7 +84,7 @@ a {
     #tweets li img {
         float: left;
         clear: both;
-        margin-left: -60px;
+        margin-left: -70px;
         border: solid 1px #c7bfa9;
     }
     
@@ -99,10 +97,6 @@ a {
         margin-top: .5em;
     }
     
-#rail > * {
-    text-align: left;
-}
-
 #rail ol {
     list-style: upper-roman;
     padding-left: 2em;
