@@ -1,11 +1,9 @@
 <li class="tweet" id="<%= tweet.tweet_id %>">
-  <div>
-    <img src="<%= tweet.profile_image_url %>" alt="Photo of <%= tweet.sender %>"/>
-  </div>
+  <img src="<%= tweet.profile_image_url %>" alt="Photo of <%= tweet.sender %>"/>
   
-  <div class="quote">
+  <q>
     <a href="http://twitter.com/<%= tweet.sender %>/status/<%= tweet.tweet_id %>" target="_blank"><%= prettify(tweet.message) %></a>
-  </div>
+  </q>
   
   <div class="meta">
     <a href="http://twitter.com/<%= tweet.sender %>" target="_blank"><%= tweet.sender %></a> - 

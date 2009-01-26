@@ -36,6 +36,11 @@ h3 {
     text-transform: uppercase;
 } 
 
+a {
+    color: #006626;
+}
+    a:hover { text-decoration: none; }
+    
 /* Layout
  * ----------------------------------------------------------------*/
 #content {
@@ -65,6 +70,35 @@ h3 {
     text-align: left;
 }
 
+#main ul {
+    list-style: none;
+}
+
+ul#tweets {
+    padding: 1em 0;
+}
+    #tweets li {
+        padding: 0 2em 2em 70px;
+        margin-bottom: 1em;
+        background: transparent url(/images/bg-divider.png) no-repeat 50% 100%;
+    }
+    
+    #tweets li img {
+        float: left;
+        clear: both;
+        margin-left: -60px;
+        border: solid 1px #c7bfa9;
+    }
+    
+    #tweets li q {
+        quotes: none;
+    }
+
+    #tweets li .meta {
+        font-style: italic;
+        margin-top: .5em;
+    }
+    
 #rail > * {
     text-align: left;
 }
