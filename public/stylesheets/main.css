@@ -61,7 +61,7 @@ a {
     float: left;
     width: 31em;
     padding: 1em 2em;
-    margin-right: 2em;
+    margin: 0 2em 2em 0;
     background: transparent url(/images/bg-rail.png) repeat-y 100% 0%;
 }
 
