@@ -64,6 +64,7 @@ a {
 		border-bottom: 1px solid #006626;
 		}
 
+
 #main {
     text-align: left;
     float: left;
@@ -125,3 +126,12 @@ a {
     list-style: upper-roman;
     padding-left: 2em;
 }
+
+.highlight {
+	font-size: 12px;
+	background: #c4d8b6;
+	padding: 5px 10px;
+	border: 4px solid #aabe9c;
+}
+
+
