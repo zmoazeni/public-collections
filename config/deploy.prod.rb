@@ -1,5 +1,5 @@
 set :application, "public_collections"
-set :repository,  "git@source.elevatorup.com:public_collections.git"
+set :repository,  "git://github.com/zmoazeni/public-collections.git"
 
 server = "public-collections.com"
 role :web, server
